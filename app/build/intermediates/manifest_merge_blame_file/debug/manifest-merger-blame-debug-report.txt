@@ -1,0 +1,408 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aaradhya.assistant.debug"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Audio & Microphone -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:6:5-71
+12-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:7:22-77
+14
+15    <!-- Network -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <!-- Contacts & Phone -->
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:13:5-72
+19-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:13:22-69
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:14:5-67
+20-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:14:22-64
+21
+22    <!-- Foreground Services -->
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:17:22-74
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+24-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:18:5-89
+24-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:18:22-86
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+25-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:19:5-88
+25-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:19:22-85
+26
+27    <!-- Overlay -->
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:22:5-78
+28-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:22:22-75
+29
+30    <!-- Boot -->
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:25:5-81
+31-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:25:22-78
+32
+33    <!-- Camera / Flashlight -->
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:28:5-65
+34-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:28:22-62
+35    <uses-permission android:name="android.permission.FLASHLIGHT" />
+35-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:29:5-69
+35-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:29:22-66
+36
+37    <!-- Misc -->
+38    <uses-permission android:name="android.permission.VIBRATE" />
+38-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:32:5-66
+38-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:32:22-63
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:33:5-68
+39-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:33:22-65
+40    <uses-permission android:name="android.permission.BLUETOOTH" />
+40-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:34:5-68
+40-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:34:22-65
+41    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+41-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:35:5-74
+41-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:35:22-71
+42    <uses-permission
+42-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:36:5-37:38
+43        android:name="android.permission.READ_EXTERNAL_STORAGE"
+43-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:36:22-77
+44        android:maxSdkVersion="32" />
+44-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:37:9-35
+45    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+45-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:38:5-76
+45-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:38:22-73
+46    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+46-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:39:5-76
+46-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:39:22-73
+47    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+47-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:40:5-41:53
+47-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:40:22-74
+48
+49    <!-- Phone Calls -->
+50    <uses-permission android:name="android.permission.CALL_PHONE" />
+50-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:44:5-69
+50-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:44:22-66
+51
+52    <!-- Android 11+ Package Visibility for common apps -->
+53    <queries>
+53-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:47:5-87:15
+54
+55        <!-- Social -->
+56        <package android:name="com.whatsapp" />
+56-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:49:9-48
+56-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:49:18-45
+57        <package android:name="com.instagram.android" />
+57-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:50:9-57
+57-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:50:18-54
+58        <package android:name="com.facebook.katana" />
+58-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:51:9-55
+58-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:51:18-52
+59        <package android:name="com.twitter.android" />
+59-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:52:9-55
+59-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:52:18-52
+60        <package android:name="com.snapchat.android" />
+60-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:53:9-56
+60-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:53:18-53
+61        <package android:name="org.telegram.messenger" />
+61-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:54:9-58
+61-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:54:18-55
+62
+63        <!-- Video & Music -->
+64        <package android:name="com.google.android.youtube" />
+64-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:57:9-62
+64-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:57:18-59
+65        <package android:name="com.spotify.music" />
+65-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:58:9-53
+65-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:58:18-50
+66        <package android:name="com.amazon.music" />
+66-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:59:9-52
+66-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:59:18-49
+67        <package android:name="com.google.android.apps.youtube.music" />
+67-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:60:9-73
+67-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:60:18-70
+68        <package android:name="com.gaana" />
+68-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:61:9-45
+68-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:61:18-42
+69        <package android:name="com.jio.media.jiobeats" />
+69-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:62:9-58
+69-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:62:18-55
+70
+71        <!-- Navigation & Utilities -->
+72        <package android:name="com.google.android.apps.maps" />
+72-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:65:9-64
+72-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:65:18-61
+73        <package android:name="com.android.chrome" />
+73-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:66:9-54
+73-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:66:18-51
+74        <package android:name="com.google.android.gm" />
+74-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:67:9-57
+74-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:67:18-54
+75        <package android:name="com.netflix.mediaclient" />
+75-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:68:9-59
+75-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:68:18-56
+76        <package android:name="com.amazon.avod.thirdpartyclient" />
+76-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:69:9-68
+76-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:69:18-65
+77
+78        <!-- Intents for dialer, SMS, browser -->
+79        <intent>
+79-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:72:9-74:18
+80            <action android:name="android.intent.action.DIAL" />
+80-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:73:13-65
+80-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:73:21-62
+81        </intent>
+82        <intent>
+82-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:75:9-78:18
+83            <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:76:13-65
+83-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:76:21-62
+84
+85            <data android:scheme="https" />
+85-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:77:13-44
+85-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:77:19-41
+86        </intent>
+87        <intent>
+87-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:79:9-82:18
+88            <action android:name="android.intent.action.VIEW" />
+88-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:76:13-65
+88-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:76:21-62
+89
+90            <data android:scheme="market" />
+90-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:77:13-44
+90-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:77:19-41
+91        </intent>
+92        <intent>
+92-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:83:9-86:18
+93            <action android:name="android.intent.action.VIEW" />
+93-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:76:13-65
+93-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:76:21-62
+94
+95            <data android:scheme="geo" />
+95-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:77:13-44
+95-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:77:19-41
+96        </intent>
+97    </queries>
+98
+99    <permission
+99-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+100        android:name="com.aaradhya.assistant.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+100-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+101        android:protectionLevel="signature" />
+101-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+102
+103    <uses-permission android:name="com.aaradhya.assistant.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+103-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+103-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+104
+105    <application
+105-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:89:5-161:19
+106        android:allowBackup="true"
+106-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:90:9-35
+107        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+107-->[androidx.core:core:1.13.0] C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+108        android:debuggable="true"
+109        android:extractNativeLibs="false"
+110        android:icon="@mipmap/ic_launcher"
+110-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:91:9-43
+111        android:label="@string/app_name"
+111-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:92:9-41
+112        android:networkSecurityConfig="@xml/network_security_config"
+112-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:96:9-69
+113        android:roundIcon="@mipmap/ic_launcher_round"
+113-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:93:9-54
+114        android:supportsRtl="true"
+114-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:94:9-35
+115        android:testOnly="true"
+116        android:theme="@style/Theme.AARADHYA" >
+116-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:95:9-46
+117
+118        <!-- Main Activity -->
+119        <activity
+119-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:100:9-110:20
+120            android:name="com.aaradhya.assistant.ui.main.MainActivity"
+120-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:101:13-49
+121            android:exported="true"
+121-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:102:13-36
+122            android:launchMode="singleTop"
+122-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:103:13-43
+123            android:screenOrientation="portrait"
+123-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:104:13-49
+124            android:windowSoftInputMode="adjustResize" >
+124-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:105:13-55
+125            <intent-filter>
+125-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:106:13-109:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:107:17-69
+126-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:107:25-66
+127
+128                <category android:name="android.intent.category.LAUNCHER" />
+128-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:108:17-77
+128-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:108:27-74
+129            </intent-filter>
+130        </activity>
+131
+132        <!-- Settings Activity -->
+133        <activity
+133-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:113:9-117:66
+134            android:name="com.aaradhya.assistant.ui.settings.SettingsActivity"
+134-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:114:13-57
+135            android:exported="false"
+135-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:115:13-37
+136            android:parentActivityName="com.aaradhya.assistant.ui.main.MainActivity"
+136-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:117:13-63
+137            android:screenOrientation="portrait" />
+137-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:116:13-49
+138
+139        <!-- Overlay Service -->
+140        <service
+140-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:120:9-126:19
+141            android:name="com.aaradhya.assistant.service.AARADHYAOverlayService"
+141-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:121:13-59
+142            android:exported="false"
+142-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:122:13-37
+143            android:foregroundServiceType="specialUse|microphone" >
+143-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:123:13-66
+144            <property
+144-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:124:13-125:54
+145                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+145-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:124:23-82
+146                android:value="floating_overlay_ui" />
+146-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:125:17-52
+147        </service>
+148
+149        <!-- Accessibility Helper Service -->
+150        <service
+150-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:129:9-140:19
+151            android:name="com.aaradhya.assistant.service.AccessibilityHelperService"
+151-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:130:13-63
+152            android:exported="true"
+152-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:131:13-36
+153            android:label="@string/app_name"
+153-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:133:13-45
+154            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+154-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:132:13-79
+155            <intent-filter>
+155-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:134:13-136:29
+156                <action android:name="android.accessibilityservice.AccessibilityService" />
+156-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:135:17-92
+156-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:135:25-89
+157            </intent-filter>
+158
+159            <meta-data
+159-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:137:13-139:72
+160                android:name="android.accessibilityservice"
+160-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:138:17-60
+161                android:resource="@xml/accessibility_service_config" />
+161-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:139:17-69
+162        </service>
+163
+164        <!-- Power Button Receiver -->
+165        <receiver
+165-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:143:9-150:20
+166            android:name="com.aaradhya.assistant.service.PowerButtonReceiver"
+166-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:144:13-56
+167            android:exported="false" >
+167-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:145:13-37
+168            <intent-filter>
+168-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:146:13-149:29
+169                <action android:name="android.intent.action.SCREEN_OFF" />
+169-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:147:17-75
+169-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:147:25-72
+170                <action android:name="android.intent.action.SCREEN_ON" />
+170-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:148:17-74
+170-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:148:25-71
+171            </intent-filter>
+172        </receiver>
+173
+174        <!-- Boot Receiver -->
+175        <receiver
+175-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:153:9-159:20
+176            android:name="com.aaradhya.assistant.service.BootReceiver"
+176-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:154:13-49
+177            android:exported="true" >
+177-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:155:13-36
+178            <intent-filter>
+178-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:156:13-158:29
+179                <action android:name="android.intent.action.BOOT_COMPLETED" />
+179-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:157:17-79
+179-->C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\AndroidManifest.xml:157:25-76
+180            </intent-filter>
+181        </receiver>
+182
+183        <provider
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+185            android:authorities="com.aaradhya.assistant.debug.androidx-startup"
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+186            android:exported="false" >
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+187            <meta-data
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+189                android:value="androidx.startup" />
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\c9ce0b67a1cd31c1dda71517af8d7473\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+191-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\c9ce0b67a1cd31c1dda71517af8d7473\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+192                android:value="androidx.startup" />
+192-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\c9ce0b67a1cd31c1dda71517af8d7473\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+193            <meta-data
+193-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+194                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+194-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+195                android:value="androidx.startup" />
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+196        </provider>
+197
+198        <receiver
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+199            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+200            android:directBootAware="false"
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+201            android:enabled="true"
+201-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+202            android:exported="true"
+202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+203            android:permission="android.permission.DUMP" >
+203-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+204            <intent-filter>
+204-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+205                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+206            </intent-filter>
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+208                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+211                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+212            </intent-filter>
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+214                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+215            </intent-filter>
+216        </receiver>
+217    </application>
+218
+219</manifest>

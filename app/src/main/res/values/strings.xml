@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AARADHYA</string>
+    <string name="app_description">AI Voice Assistant</string>
+    <string name="accessibility_description">AARADHYA needs accessibility to perform actions on your behalf like opening apps, making calls, and navigating the phone.</string>
+    <string name="mic_button_desc">Microphone button — tap to mute, long press to interrupt AARADHYA</string>
+    <string name="settings_button_desc">Open settings</string>
+</resources>

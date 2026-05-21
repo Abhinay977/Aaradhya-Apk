@@ -1,0 +1,46 @@
+com.aaradhya.assistant.app-savedstate-1.2.1-0 C:\Users\ASUS\.gradle\caches\transforms-3\09105ff509fd54a92a41067aa5653918\transformed\savedstate-1.2.1\res
+com.aaradhya.assistant.app-appcompat-1.6.1-1 C:\Users\ASUS\.gradle\caches\transforms-3\1390ed0e93696117e0bd1340aa2458d6\transformed\appcompat-1.6.1\res
+com.aaradhya.assistant.app-core-1.13.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\23353d6f1ef06d05a166df9dc42ade42\transformed\core-1.13.0\res
+com.aaradhya.assistant.app-emoji2-1.2.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\2ae845919254fd1c61ba530851d4711d\transformed\emoji2-1.2.0\res
+com.aaradhya.assistant.app-annotation-experimental-1.4.0-4 C:\Users\ASUS\.gradle\caches\transforms-3\33ef5f1bb401bb95b20ecc3bb1f3e0cc\transformed\annotation-experimental-1.4.0\res
+com.aaradhya.assistant.app-material-1.11.0-5 C:\Users\ASUS\.gradle\caches\transforms-3\3a347358b13a1901f4709358b2ed9945\transformed\material-1.11.0\res
+com.aaradhya.assistant.app-transition-1.2.0-6 C:\Users\ASUS\.gradle\caches\transforms-3\3d5a9a4578d2969d4bd4315ff0055d9a\transformed\transition-1.2.0\res
+com.aaradhya.assistant.app-databinding-adapters-8.2.2-7 C:\Users\ASUS\.gradle\caches\transforms-3\3e0c396aab5218aa0dd3dd075cbfd6c8\transformed\databinding-adapters-8.2.2\res
+com.aaradhya.assistant.app-activity-1.9.0-8 C:\Users\ASUS\.gradle\caches\transforms-3\4b7f205cc39b6c014e5d09bda62c1fc0\transformed\activity-1.9.0\res
+com.aaradhya.assistant.app-coordinatorlayout-1.1.0-9 C:\Users\ASUS\.gradle\caches\transforms-3\585a83745d6f9e1fac22fc0bb53982d6\transformed\coordinatorlayout-1.1.0\res
+com.aaradhya.assistant.app-lifecycle-viewmodel-ktx-2.7.0-10 C:\Users\ASUS\.gradle\caches\transforms-3\5967ca13f047e3cf271ce783e6fb9de9\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.aaradhya.assistant.app-profileinstaller-1.3.1-11 C:\Users\ASUS\.gradle\caches\transforms-3\7171029d4a0ff44f87065914e9c3ce6a\transformed\profileinstaller-1.3.1\res
+com.aaradhya.assistant.app-cardview-1.0.0-12 C:\Users\ASUS\.gradle\caches\transforms-3\7192bc092133145dc42fdafeebe5edee\transformed\cardview-1.0.0\res
+com.aaradhya.assistant.app-security-crypto-1.1.0-alpha06-13 C:\Users\ASUS\.gradle\caches\transforms-3\76aea83b90a71ec7dc6522a40b6359af\transformed\security-crypto-1.1.0-alpha06\res
+com.aaradhya.assistant.app-lifecycle-runtime-2.7.0-14 C:\Users\ASUS\.gradle\caches\transforms-3\7940096e3e98252c892440d3f2c3373f\transformed\lifecycle-runtime-2.7.0\res
+com.aaradhya.assistant.app-lifecycle-livedata-2.7.0-15 C:\Users\ASUS\.gradle\caches\transforms-3\79c948d5a563d256f9c321ca2d8c85c7\transformed\lifecycle-livedata-2.7.0\res
+com.aaradhya.assistant.app-appcompat-resources-1.6.1-16 C:\Users\ASUS\.gradle\caches\transforms-3\8605a899b8773ac145ece6082f168511\transformed\appcompat-resources-1.6.1\res
+com.aaradhya.assistant.app-emoji2-views-helper-1.2.0-17 C:\Users\ASUS\.gradle\caches\transforms-3\8848a2782bf9a6bb6a60c97957b5d2ed\transformed\emoji2-views-helper-1.2.0\res
+com.aaradhya.assistant.app-constraintlayout-2.1.4-18 C:\Users\ASUS\.gradle\caches\transforms-3\899eb6999f1668ce0807a12ae7b79a42\transformed\constraintlayout-2.1.4\res
+com.aaradhya.assistant.app-lifecycle-livedata-core-ktx-2.7.0-19 C:\Users\ASUS\.gradle\caches\transforms-3\8a02bfbf57225495d28188bfdbf0f5f9\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.aaradhya.assistant.app-lifecycle-viewmodel-2.7.0-20 C:\Users\ASUS\.gradle\caches\transforms-3\914177849f88652c8b10113371a0cf60\transformed\lifecycle-viewmodel-2.7.0\res
+com.aaradhya.assistant.app-viewpager2-1.1.0-beta02-21 C:\Users\ASUS\.gradle\caches\transforms-3\94b82b4bee1c6e5004f43eee5c655141\transformed\viewpager2-1.1.0-beta02\res
+com.aaradhya.assistant.app-lifecycle-viewmodel-savedstate-2.7.0-22 C:\Users\ASUS\.gradle\caches\transforms-3\a157c9b4883a01cf0c2cc48d1b8f08ea\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.aaradhya.assistant.app-recyclerview-1.3.2-23 C:\Users\ASUS\.gradle\caches\transforms-3\a286005766a00c1147a772b3d59f790b\transformed\recyclerview-1.3.2\res
+com.aaradhya.assistant.app-lifecycle-livedata-core-2.7.0-24 C:\Users\ASUS\.gradle\caches\transforms-3\ab49a795ee8f8e9fbe38869e9ae78d2f\transformed\lifecycle-livedata-core-2.7.0\res
+com.aaradhya.assistant.app-lifecycle-service-2.7.0-25 C:\Users\ASUS\.gradle\caches\transforms-3\ae05df1771b374db1007de872b3bd909\transformed\lifecycle-service-2.7.0\res
+com.aaradhya.assistant.app-activity-ktx-1.9.0-26 C:\Users\ASUS\.gradle\caches\transforms-3\b0a250d837d3d85819d6e8c28843e1e3\transformed\activity-ktx-1.9.0\res
+com.aaradhya.assistant.app-core-runtime-2.2.0-27 C:\Users\ASUS\.gradle\caches\transforms-3\b142b6c20290fb766ef825d652df3fe1\transformed\core-runtime-2.2.0\res
+com.aaradhya.assistant.app-core-ktx-1.13.0-28 C:\Users\ASUS\.gradle\caches\transforms-3\bd9a7a10f5bf949b2cf438e6546fd146\transformed\core-ktx-1.13.0\res
+com.aaradhya.assistant.app-lifecycle-livedata-ktx-2.7.0-29 C:\Users\ASUS\.gradle\caches\transforms-3\c0294535b50ee8a6645b14dd8894c87d\transformed\lifecycle-livedata-ktx-2.7.0\res
+com.aaradhya.assistant.app-lifecycle-process-2.7.0-30 C:\Users\ASUS\.gradle\caches\transforms-3\c9ce0b67a1cd31c1dda71517af8d7473\transformed\lifecycle-process-2.7.0\res
+com.aaradhya.assistant.app-fragment-ktx-1.7.1-31 C:\Users\ASUS\.gradle\caches\transforms-3\cf637c6e7b084d94d8ed43f783c6b376\transformed\fragment-ktx-1.7.1\res
+com.aaradhya.assistant.app-customview-poolingcontainer-1.0.0-32 C:\Users\ASUS\.gradle\caches\transforms-3\d2078c2e1f3b33ea1c4e55b950d28397\transformed\customview-poolingcontainer-1.0.0\res
+com.aaradhya.assistant.app-startup-runtime-1.1.1-33 C:\Users\ASUS\.gradle\caches\transforms-3\d87d2cc011329dbc6915f58ad22ea6eb\transformed\startup-runtime-1.1.1\res
+com.aaradhya.assistant.app-databinding-runtime-8.2.2-34 C:\Users\ASUS\.gradle\caches\transforms-3\dd0edd129b014dc60d9ec542fe8fa5cf\transformed\databinding-runtime-8.2.2\res
+com.aaradhya.assistant.app-lifecycle-runtime-ktx-2.7.0-35 C:\Users\ASUS\.gradle\caches\transforms-3\df9bf8b477c7e5223843375ddd94138f\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.aaradhya.assistant.app-savedstate-ktx-1.2.1-36 C:\Users\ASUS\.gradle\caches\transforms-3\e184f8793a161536c01379421d5808c7\transformed\savedstate-ktx-1.2.1\res
+com.aaradhya.assistant.app-drawerlayout-1.1.1-37 C:\Users\ASUS\.gradle\caches\transforms-3\fc1fa3c9bb04819bb481e180355a8187\transformed\drawerlayout-1.1.1\res
+com.aaradhya.assistant.app-fragment-1.7.1-38 C:\Users\ASUS\.gradle\caches\transforms-3\fe89afb86f5c697487f1c218450b94af\transformed\fragment-1.7.1\res
+com.aaradhya.assistant.app-pngs-39 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\build\generated\res\pngs\debug
+com.aaradhya.assistant.app-resValues-40 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\build\generated\res\resValues\debug
+com.aaradhya.assistant.app-packageDebugResources-41 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.aaradhya.assistant.app-packageDebugResources-42 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.aaradhya.assistant.app-merged_res-43 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\build\intermediates\merged_res\debug
+com.aaradhya.assistant.app-debug-44 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\debug\res
+com.aaradhya.assistant.app-main-45 C:\Users\ASUS\OneDrive\Documents\AARADHYA APK\app\src\main\res

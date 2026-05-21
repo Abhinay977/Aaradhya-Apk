@@ -1,0 +1,97 @@
+﻿--------- beginning of crash
+05-16 15:24:32.627  1413  1413 I libimsma_adapt: mtk-brm-commit-id:8783a29bae0ae84a456239f3212f27bdafa94c91
+05-16 15:24:32.627  1413  1413 I libimsma_adapt: mtk-brm-change-id:Iee598bb542f5de895a4b71649fbc79b2d93bc3de
+05-16 15:24:32.627  1413  1413 I libimsma_adapt: mtk-brm-merge-id:none
+05-16 15:24:32.735  1513  1513 I emdlogger: mtk-brm-commit-id:5f47b20e293ebadfabd381666fc03c5b709870e2
+05-16 15:24:32.735  1513  1513 I emdlogger: mtk-brm-change-id:Ib405363e450403587f3a66bbe5b353966c086aba
+05-16 15:24:32.735  1513  1513 I emdlogger: mtk-brm-merge-id:none
+05-16 15:24:56.556  1711  1780 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x70ba2aea5c)
+05-16 15:24:56.557  1711  1780 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 1780 (BootAnimation), pid 1711 (bootanimation)
+05-16 15:24:56.640  1711  1848 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x73959f4a28)
+05-16 15:24:56.640  1711  1849 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x73959f4b68)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: FATAL EXCEPTION: main
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: Process: com.aaradhya.assistant.debug, PID: 15045
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.aaradhya.assistant.service.CallMonitorService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{5b7018e 15045:com.aaradhya.assistant.debug/u0a315} targetSDK=34 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5654)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2902)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9911)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{5b7018e 15045:com.aaradhya.assistant.debug/u0a315} targetSDK=34 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3255)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3239)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3222)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3164)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7849)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:863)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at com.aaradhya.assistant.service.CallMonitorService.onCreate(CallMonitorService.kt:52)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5641)
+05-16 15:28:10.737 15045 15045 E AndroidRuntime: 	... 9 more
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: FATAL EXCEPTION: main
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: Process: com.aaradhya.assistant.debug, PID: 15418
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.aaradhya.assistant.service.CallMonitorService: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{60e9f4f 15418:com.aaradhya.assistant.debug/u0a315} targetSDK=34 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5654)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2902)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9911)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: Caused by: java.lang.SecurityException: Starting FGS with type microphone callerApp=ProcessRecord{60e9f4f 15418:com.aaradhya.assistant.debug/u0a315} targetSDK=34 requires permissions: all of the permissions allOf=true [android.permission.FOREGROUND_SERVICE_MICROPHONE] any of the permissions allOf=false [android.permission.CAPTURE_AUDIO_HOTWORD, android.permission.CAPTURE_AUDIO_OUTPUT, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.CAPTURE_TUNER_AUDIO_INPUT, android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT, android.permission.RECORD_AUDIO]  and the app must be in the eligible state/exemptions to access the foreground only permission
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3255)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3239)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3222)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3164)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.setServiceForeground(IActivityManager.java:7849)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.Service.startForeground(Service.java:863)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at com.aaradhya.assistant.service.CallMonitorService.onCreate(CallMonitorService.kt:52)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5641)
+05-16 15:28:17.364 15418 15418 E AndroidRuntime: 	... 9 more
+05-16 15:36:11.872 19897 20039 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7656362de8)
+05-16 15:36:11.872 19897 20040 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7656362de8)
+05-16 15:36:11.873 19897 20039 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 20039 (hwuiTask0), pid 19897 (assistant.debug)
+05-16 15:36:11.874 19897 20010 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x765e9fbb68)
+05-16 15:43:32.395 22177 22238 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7656362de8)
+05-16 15:43:32.396 22177 22237 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7656362de8)
+05-16 15:43:32.396 22177 22238 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 22238 (hwuiTask1), pid 22177 (assistant.debug)
+05-16 15:54:00.448 27806 27911 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7656362de8)
+05-16 15:54:00.448 27806 27910 F libc    : FORTIFY: pthread_mutex_lock called on a destroyed mutex (0x7656362de8)
+05-16 15:54:00.449 27806 27911 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 27911 (hwuiTask1), pid 27806 (assistant.debug)
+05-16 16:16:21.633   824   824 E AndroidRuntime: FATAL EXCEPTION: main
+05-16 16:16:21.633   824   824 E AndroidRuntime: Process: com.aaradhya.assistant.debug, PID: 824
+05-16 16:16:21.633   824   824 E AndroidRuntime: java.lang.RuntimeException: Unable to start receiver com.aaradhya.assistant.service.BootReceiver: android.app.ForegroundServiceStartNotAllowedException: startForegroundService() not allowed due to mAllowStartForeground false: service com.aaradhya.assistant.debug/com.aaradhya.assistant.service.CallMonitorService
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:5433)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleReceiver(Unknown Source:0)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2894)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:250)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:340)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9911)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:625)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:957)
+05-16 16:16:21.633   824   824 E AndroidRuntime: Caused by: android.app.ForegroundServiceStartNotAllowedException: startForegroundService() not allowed due to mAllowStartForeground false: service com.aaradhya.assistant.debug/com.aaradhya.assistant.service.CallMonitorService
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:54)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ForegroundServiceStartNotAllowedException$1.createFromParcel(ForegroundServiceStartNotAllowedException.java:50)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Parcel.readParcelableInternal(Parcel.java:5088)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:5070)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3250)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3239)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3222)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3164)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.IActivityManager$Stub$Proxy.startService(IActivityManager.java:7049)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:2011)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ContextImpl.startForegroundService(ContextImpl.java:1981)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.content.ContextWrapper.startForegroundService(ContextWrapper.java:853)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.content.ContextWrapper.startForegroundService(ContextWrapper.java:853)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at com.aaradhya.assistant.service.BootReceiver.onReceive(BootReceiver.kt:13)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:5424)
+05-16 16:16:21.633   824   824 E AndroidRuntime: 	... 9 more

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/item_prime_contact.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/item_prime_contact.xml"
+    },
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/activity_settings.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/item_chat_user.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/item_chat_aaradhya.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/item_chat_aaradhya.xml"
+    },
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/overlay_orb.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/overlay_orb.xml"
+    },
+    {
+        "merged": "com.aaradhya.assistant.app-mergeDebugResources-42:/layout/dialog_add_prime_contact.xml",
+        "source": "com.aaradhya.assistant.app-main-45:/layout/dialog_add_prime_contact.xml"
+    }
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AARADHYA" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/aaradhya_gold</item>
+        <item name="colorPrimaryVariant">@color/aaradhya_gold_dim</item>
+        <item name="colorOnPrimary">@color/aaradhya_bg</item>
+        <item name="colorSecondary">@color/aaradhya_teal</item>
+        <item name="colorOnSecondary">@color/aaradhya_bg</item>
+        <item name="android:colorBackground">@color/aaradhya_bg</item>
+        <item name="colorSurface">@color/aaradhya_surface</item>
+        <item name="colorOnSurface">@color/aaradhya_text</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/aaradhya_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="alertDialogTheme">@style/Theme.AARADHYA.Dialog</item>
+    </style>
+
+    <style name="Theme.AARADHYA.Dialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:colorBackground">@color/aaradhya_surface</item>
+        <item name="colorPrimary">@color/aaradhya_gold</item>
+        <item name="android:textColorPrimary">@color/aaradhya_text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Theme.AARADHYA.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Theme.AARADHYA.Button.Outlined</item>
+    </style>
+
+    <style name="Theme.AARADHYA.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/aaradhya_gold</item>
+        <item name="android:textColor">@color/aaradhya_bg</item>
+    </style>
+
+    <style name="Theme.AARADHYA.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/aaradhya_gold_dim</item>
+        <item name="android:textColor">@color/aaradhya_gold</item>
+    </style>
+</resources>

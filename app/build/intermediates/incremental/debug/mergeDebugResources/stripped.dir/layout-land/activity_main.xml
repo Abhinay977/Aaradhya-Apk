@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aaradhya_bg">
+
+    <!-- Active Overlay -->
+    <View
+        android:id="@+id/redOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/aaradhya_amber"
+        android:alpha="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:background="#060b18"
+            android:paddingHorizontal="16dp"
+            android:gravity="center_vertical">
+
+            <!-- Left: Model Badge -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AARADHYA"
+                android:textColor="@color/aaradhya_gold_dim"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace" />
+
+            <!-- Center: Title -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AARADHYA"
+                    android:textColor="@color/aaradhya_gold"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUST A RATHER VERY INTELLIGENT SYSTEM"
+                    android:textColor="@color/aaradhya_gold_dim"
+                    android:textSize="8sp"
+                    android:fontFamily="monospace"
+                    android:letterSpacing="0.1" />
+            </LinearLayout>
+
+            <!-- Right: Time + Settings -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical">
+
+                <TextView
+                    android:id="@+id/timeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:text="--:--"
+                    android:textColor="@color/aaradhya_gold2"
+                    android:textSize="16sp"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/settingsBtn"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_settings"
+                    app:tint="@color/aaradhya_gold_dim"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:contentDescription="Settings" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aaradhya_gold_dim" />
+
+        <!-- 3-COLUMN BODY -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <!-- LEFT PANEL: COMMS LOG (26%) -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="26"
+                android:orientation="vertical"
+                android:background="@color/aaradhya_surface"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  COMMS LOG"
+                    android:textColor="@color/aaradhya_gold"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:paddingBottom="6dp" />
+                    
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/aaradhya_border2" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/chatRecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:clipToPadding="false" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/aaradhya_border2" />
+
+            <!-- CENTER PANEL: ORB (48%) -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="48"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <com.aaradhya.assistant.ui.main.OrbAnimationView
+                        android:id="@+id/orbView"
+                        android:layout_width="240dp"
+                        android:layout_height="240dp" />
+
+                    <TextView
+                        android:id="@+id/statusText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="○ ONLINE"
+                        android:textColor="@color/aaradhya_gold"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+
+                    <com.aaradhya.assistant.ui.main.WaveformView
+                        android:id="@+id/waveformView"
+                        android:layout_width="160dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="6dp" />
+                        
+                    <ImageButton
+                        android:id="@+id/micButton"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/bg_mic_button"
+                        android:src="@drawable/ic_mic_on"
+                        android:contentDescription="Microphone"
+                        android:elevation="4dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/aaradhya_border2" />
+
+            <!-- RIGHT PANEL: SYSTEM VITALS (26%) -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="26"
+                android:orientation="vertical"
+                android:background="@color/aaradhya_surface"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  SYSTEM VITALS"
+                    android:textColor="@color/aaradhya_gold"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:paddingBottom="6dp" />
+                    
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/aaradhya_border2" />
+
+                <com.aaradhya.assistant.ui.main.SystemVitalsView
+                    android:id="@+id/systemVitalsView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- FOOTER -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aaradhya_border" />
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#060b18"
+            android:gravity="center">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FatihMakes Industries  ·  CLASSIFIED  ·  AARADHYA  ·  [TAP MIC] MUTE"
+                android:textColor="@color/aaradhya_text3"
+                android:textSize="9sp"
+                android:fontFamily="monospace" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

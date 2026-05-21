@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="48dp"
+        android:paddingBottom="32dp"
+        android:paddingHorizontal="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⚙️ SETTINGS"
+            android:textColor="#FF1744"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.3"
+            android:layout_marginBottom="24dp" />
+
+        <!-- API Key -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GEMINI API KEY"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/apiKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input_field"
+            android:hint="Enter your primary Gemini API key"
+            android:textColorHint="#444444"
+            android:inputType="textPassword"
+            android:textColor="#EEEEEE"
+            android:textSize="14sp"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SECONDARY GEMINI API KEY (OPTIONAL)"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/secondaryApiKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input_field"
+            android:hint="Enter secondary key for automatic fallback"
+            android:textColorHint="#444444"
+            android:inputType="textPassword"
+            android:textColor="#EEEEEE"
+            android:textSize="14sp"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Serpstack API Key -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SERPSTACK API KEY (LIVE SEARCH)"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/serpstackApiKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input_field"
+            android:hint="Enter your free Serpstack API key"
+            android:textColorHint="#444444"
+            android:inputType="textPassword"
+            android:textColor="#EEEEEE"
+            android:textSize="14sp"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- User Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR NAME"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/userNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input_field"
+            android:hint="What should AARADHYA call you?"
+            android:textColorHint="#444444"
+            android:textColor="#EEEEEE"
+            android:textSize="14sp"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- AI Model -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AI MODEL"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <Spinner
+            android:id="@+id/modelSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input_field"
+            android:padding="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Voice -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AARADHYA'S VOICE"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <Spinner
+            android:id="@+id/voiceSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input_field"
+            android:padding="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Personality -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERSONALITY MODE"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/personalityGF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💖 GF Mode (Hinglish, Warm)"
+                android:textColor="#EEEEEE"
+                android:buttonTint="#FF1744"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/personalityPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💼 Professional (Formal English)"
+                android:textColor="#EEEEEE"
+                android:buttonTint="#FF1744" />
+
+            <RadioButton
+                android:id="@+id/personalityAss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤖 Assistant (Balanced)"
+                android:textColor="#EEEEEE"
+                android:buttonTint="#FF1744" />
+        </RadioGroup>
+
+        <!-- Prime Contacts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRIME CONTACTS ⭐"
+                android:textColor="#888888"
+                android:textSize="11sp"
+                android:fontFamily="monospace" />
+
+            <Button
+                android:id="@+id/addPrimeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="+ ADD"
+                android:textSize="11sp"
+                android:background="@drawable/bg_prime_badge"
+                android:textColor="#FF1744"
+                android:paddingHorizontal="12dp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/primeRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Accessibility Status -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCESSIBILITY SERVICE"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/accessibilityStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checking..."
+            android:textColor="#888888"
+            android:textSize="13sp"
+            android:padding="12dp"
+            android:background="@drawable/bg_input_field"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="💾 SAVE SETTINGS"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_save_button"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.1" />
+
+    </LinearLayout>
+</ScrollView>
